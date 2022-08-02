@@ -1,5 +1,5 @@
 {
   "require": {
-    "gregwar/captcha": "*"
+    "gregwar/captcha": "v1.1.9"
   }
 }
