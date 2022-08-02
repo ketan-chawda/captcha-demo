@@ -1,13 +1,4 @@
-<?php
-
-include dirname( __FILE__ ) . '/vendor/autoload.php';
-
-use Gregwar\Captcha\CaptchaBuilder;
-
-$builder = new CaptchaBuilder;
-$builder->build();
-?>
-
+<!--Associated URL : https://demos.buddyboss.com/online-communities/?create_sandbox=1-->
 <div class="elem-group">
     <form action="verify.php" method="post">
         <label for="captcha">Please Enter the Captcha Text</label>
@@ -16,6 +7,6 @@ $builder->build();
         <br>
         <label for="phrase"></label>
         <input type="text" id="phrase" name="phrase">
-        <input type="submit"/>
+        <input type="submit" value="Create Sandbox"/>
     </form>
 </div>
